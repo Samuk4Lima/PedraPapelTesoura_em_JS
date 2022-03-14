@@ -1,0 +1,25 @@
+header > h1{
+    text-align: center;
+}
+
+.jogador > img, .inimigo img{
+    max-width: 100px;
+    opacity: 0.3;
+    cursor: pointer;
+    display: flex;
+    
+}
+
+.jogador, .inimigo{
+    width: 50%;
+}
+
+.align{
+    display: flex;
+}
+
+.vencedor{
+    text-align: center;
+    color: red;
+}
+
